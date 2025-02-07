@@ -13,5 +13,7 @@ project("lua")
     includedirs({
         g_wkslight.workspace.libraries.projects.lua.includedirs,
     })
-    --filter("files:src/luac.c")
-    --  flags({ "ExcludeFromBuild" })
+    --[[
+    filter("files:src/luac.c")
+        flags({ "ExcludeFromBuild" })
+    --]]
